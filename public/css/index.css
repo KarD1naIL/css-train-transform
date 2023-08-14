@@ -111,10 +111,12 @@
 }
 
 .task15 {
-  transition: transform 1s ease;
+  transform: matrix(1, 1, 1, 1);
+  transition: all 1s ease-out;
 }
 
 .task15:hover {
+  transform: matrix(0.4, 1.1, 1.1, 0.4, 1, 1);
 }
 
 .task16 {
